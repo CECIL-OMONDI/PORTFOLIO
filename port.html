@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cecil's portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/21ef5a7094.js" crossorigin="anonymous"></script> <!----ICONS FONTAWESOME.COM-->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/cecil logo.png"class="logo">
+                <ul id ="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p style="color: #FF7200;">UI/UX Designer &  Web developer</p> 
+                <h1> Hello! I'm<br><span>Cecil</span>  From Kenya </h1>
+            </div>
+        </div>
+
+    </div>
+    <!--------about----->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am an enthusiastic IT student currently pursuing my studies
+                         at Africa Nazarene University. Technology has always fascinated
+                          me—from the intricate lines of code to the limitless
+                           possibilities it offers.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>  
+                        <div class="tab-contents active-tab" id="skills" >
+                            <ul>
+                                <li><span>UI/UX</span><BR>Designingv we/App interfaces</li>
+                                    <li><span>Web Development</span><BR>Web App Development</li>
+                                        <li><span>App Development</span><BR>Building Android/ios apps</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024-Current</span><BR>Pentest training @ Africa Nazarene</li>
+                                    <li><span>2022-2024 Feb</span><BR>CYberry-ceey CEO.Team leader</li>
+                                        <li><span>2021-2022</span><BR>Internship @ Kenya Safaricom limited</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Africa Nazarene 2019</span><BR>BUssines management</li>
+                                    <li><span>2019 ANU</span><BR>Start my Iformation tecnology course</li>
+                                        <li><span>2016-2018</span><BR>Did my highschool Education later joining ANU</li>
+                            </ul>
+                        </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+                     <!-----------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services  <i class="fa-regular fa-handshake"></i></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Web Design</h2>
+                <p> I sculpt user experiences that resonate and connect.
+                     My designs are not just visually stunning; they
+                      are intuitive, accessible, and inclusive. 
+                      I believe in design that serves a purpose, that guides
+                       the user effortlessly from one point to the next, creating 
+                       a journey that is both enjoyable and enlightening.</p>
+                       <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-nfc-directional"></i>
+                <h2>Database Wizardry</h2>
+                <p> SQL databases are my playground. Designing efficient 
+                    schemas, optimizing queries, and ensuring data 
+                    integrity—it’s like <br>solving intricate puzzles that
+                     power applications.</p>
+                       <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-swift"></i>
+                <h2>Tech Community Advocate</h2>
+                <p> Beyond the classroom, I engage with tech communities.
+                     Hackathons, meetups, and open-source projects—they fuel
+                      my growth and connect me with fellow tech enthusiasts.</p>
+                       <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work<i class="fa-solid fa-globe"></i></h1>
+        <div class="wok-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>In the dynamic realm of social media app development,
+                         our  skills(CYberry-ceey) have shone brightly. Our adeptness in 
+                         crafting engaging user interfaces, seamless navigation,
+                          and intuitive functionality has elevated the user 
+                          experience to new heights</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p> Mastering the Art of Data: As a database developer, I’ve
+                        sculpted efficient databases, optimized queries, and 
+                        safeguarded critical information. My passion for data
+                         modeling and SQL has allowed me to create robust systems
+                          that power applications seamlessly</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p> : Our app’s intuitive design, smooth navigation, and
+                         robust features have transformed shopping. Thank you
+                          for enhancing our digital retail journey!</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#"class="btn">See More</a> 
+    </div>
+</div>
+<!---------contact-------->
+<div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i> cecilomondi33@gmail.com</p>
+            <p><i class="fa-brands fa-whatsapp"></i> +254700604263</p>
+            <div class="social-icons">
+                <a href="https://fa-square-facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://x.com/CurllyShade?t=_XuPOdIWeWxXGabk0Gg0pQ&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.instagram.com/ceey_cil?utm_source=qr&igsh=MWhhZXF6eGltaXZlZA=="><i class="fa-brands fa-instagram"></i></a>
+                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my cv.pdf"dowload class="btn btn2">Dowload CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text"name="Name"placeholder="Your Name"requred>
+                <input type="EMAIL"name="EMAIL"placeholder="YOUR EMAIL" required>
+                <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                <button type="submit"class="btn btn2">SUBMIT</button>
+            </form>
+            <span id="msg"></span>
+
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Cecil.Made with<i class="fa-solid fa-heart-pulse"></i> by CYberry-ceey</p>
+    </div>
+</div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab (tabname){
+           for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyqHcdFHKDXsQ2UDZG5gb4o7r-hMAcx8XElDyqxC64rYjJTwRwQld9luooYK7k-7cjo/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+
+
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
